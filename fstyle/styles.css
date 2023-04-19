@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+:root {
+  --main-color: #ad2831;
+  --bg-color: #250902;
+  --second-bg-color: #38040e;
+  --text-color: #fff;
+  --footer-color: #640d14;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: "lobster";
+  padding: 5rem 15%;
+  overflow-x: hidden;
+}
+
